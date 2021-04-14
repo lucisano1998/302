@@ -1,0 +1,38 @@
+<html>
+<script>
+</script>
+
+<body>
+
+	<div>
+
+
+			<table border=1>
+      		<tr>
+      		<td>photo</td>
+      		<td>Name</td>
+      		<td>Price</td>
+      		<td>Weight</td>
+      		<td>Publisher</td>
+      		<td>QTY</td>
+      		<td></td>
+      		</tr>
+
+
+				<tr>
+				<form method='POST' action='product.php'>
+      			<td><img src='./cover/1.png' width='100' height='100'></td>
+      			<td><input type='text' value='".$name."' readonly name='productname'></td>
+      			<td><input type='text' value='$500' name='price' readonly></td>
+      			<td><input type='text' value='1.2' name='weight' name='weight' readonly></td>
+      			<td><input type='text' value='Marti and Starsky Wong' name='publisher' readonly></td>
+      			<td><input type='text' value='".$qty."' readonly name='qty'></td>
+      			<td><input type='submit' value='pay'></td>
+      			</tr>
+
+
+
+
+	</div>
+</body>
+</html>
